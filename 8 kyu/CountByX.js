@@ -1,10 +1,10 @@
-// Create a function with two arguments that will return an array of the first n multiples of x.
+// Given a random non-negative number,
+// you have to return the digits of this number within an array in reverse order.
 
-// Assume both the given number and the number of times to count will be positive numbers greater than 0.
-
-// Return the results as an array or list ( depending on language ).
-function countBy(x, n) {
-  let array = [];
-
-  return newArray;
+//code here
+function digitize(n) {
+  return String(n)
+    .split("")
+    .reverse()
+    .map((x) => Number(x));
 }
